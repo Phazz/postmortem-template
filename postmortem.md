@@ -42,7 +42,7 @@ OPEN (OPEN || COMPLETE)
 ### Duration: 
 X days Y hours Z minutes
 
-### Timeline
+### Timeline (all times are CEST: Central European Summer Time UTC+2)
 
 | Date & time | Description |
 |----|----|
