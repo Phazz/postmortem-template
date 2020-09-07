@@ -1,3 +1,6 @@
+Add here specification for file naming.
+yyyymmdd-postmortem-team-product-incident.md
+
 ```
 Remove this tip from your postmortem
 Mandatory: 
@@ -38,6 +41,18 @@ OPEN (OPEN || COMPLETE)
 
 ### Duration: 
 X days Y hours Z minutes
+
+### Timeline
+
+| Date & time | Description |
+|----|----|
+| 01/01/2020 01:00 | Monitoring detected an increase in 5xx errors above our hourly budget |
+| 01/01/2020 01:02 | Team B on call engineer received a paging notification |
+| 01/01/2020 01:09 | Team B on call engineer acknowledge the issue and start investigation |
+| 01/01/2020 01:15 | Team B on call engineer identifies the issue come from a patch on Team A service that break Team B service. |
+| 01/01/2020 01:19 | Team B on call engineer rolls back change from Team A. |
+| 01/01/2020 01:20 | Team B service is confirmed to be back back online.|
+
  
 ### Actions
 | Actions | Type     | Owner | Ticket link |
